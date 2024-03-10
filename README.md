@@ -98,17 +98,16 @@ The workflow of this application is very easy. When somene creates a document or
 
 11. Start frontend development server:
 
-```shell
-yarn dev
-or yarn dev --port ${port}
-```
+      ```shell
+      yarn dev --port 3000
+      ```
 
 ## Setup using Docker:
 
 1. Navigate to the project directory:
 
    ```shell
-   cd realtime-ms-word
+   cd American_Elite_Market_Assignment
    ```
 
 2. Run docker compose
