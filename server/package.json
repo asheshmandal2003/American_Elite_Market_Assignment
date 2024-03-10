@@ -1,10 +1,10 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Backend of realtime ms word application",
+  "description": "Backend of Realtime text editor",
   "main": "index.js",
-  "repository": "git@github.com:asheshmandal2003/realtime-ms-word.git",
-  "author": "Ashesh Mandal",
+  "repository": "https://github.com/asheshmandal2003/American_Elite_Market_Assignment.git",
+  "author": "Ashesh Mandal<asheshmandal73@gmail.com>",
   "license": "MIT",
   "type": "module",
   "scripts": {
