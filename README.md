@@ -2,6 +2,10 @@
 
 Welcome to realtime document editor. Here you can create your own document, can edit it in realtime and can share it with anyone who are signed in with this application, and also revoke their access. You can change your document access type (public, private) and share it to everyone.
 
+## Video Demonstration
+
+[Screencast from 11-03-24 01:57:42 AM IST.webm](https://github.com/asheshmandal2003/American_Elite_Market_Assignment/assets/116034358/c46945b9-a3df-4963-ba9c-1204f4917395)
+
 ## Features
 
 - **User Registration and Authentication**: Users can sign up, log in, and securely manage their accounts using Passport.js for authentication.
