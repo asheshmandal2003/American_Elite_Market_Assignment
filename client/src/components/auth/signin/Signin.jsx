@@ -30,7 +30,7 @@ export default function Signin() {
         dispatch(login({ user: result.data.user, token: result.data.token }));
         toast.success(`${result.data.message}`, {
           position: "top-right",
-          autoClose: 6000,
+          autoClose: 5000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -45,7 +45,7 @@ export default function Signin() {
         setLogging(false);
         toast.error("Invalid credentials!", {
           position: "top-right",
-          autoClose: 6000,
+          autoClose: 5000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -66,7 +66,7 @@ export default function Signin() {
           pb: phone ? 4 : 5,
           mt: phone ? 5 : 6,
           mb: phone ? 0 : 6,
-          width: phone ? "90%" : 450,
+          width: phone ? "90%" : 400,
           display: "flex",
           justifyContent: "center",
           flexDirection: "column",

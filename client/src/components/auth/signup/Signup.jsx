@@ -30,7 +30,7 @@ export default function Signup() {
         dispatch(login({ user: result.data.user, token: result.data.token }));
         toast.success(`${result.data.message}`, {
           position: "top-right",
-          autoClose: 6000,
+          autoClose: 5000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -45,7 +45,7 @@ export default function Signup() {
         setRegistering(false);
         toast.error(`${err.response.data.message}`, {
           position: "top-right",
-          autoClose: 6000,
+          autoClose: 5000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -65,7 +65,7 @@ export default function Signup() {
           pb: phone ? 4 : 5,
           mt: phone ? 5 : 6,
           mb: phone ? 5 : 6,
-          width: phone ? "90%" : 450,
+          width: phone ? "90%" : 400,
           display: "flex",
           justifyContent: "center",
           flexDirection: "column",

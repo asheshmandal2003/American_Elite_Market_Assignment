@@ -83,15 +83,11 @@ export default function AvatarWithMenu() {
   const deleteAc = async () => {
     setLoggingOut(true);
     await axios
-      .delete(
-        `${import.meta.env.VITE_BACKEND_URL}/auth/delete/${user._id}`,
-        {},
-        {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        }
-      )
+      .delete(`${import.meta.env.VITE_BACKEND_URL}/auth/delete/${user._id}`, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
       .then((res) => {
         dispatch(logout());
         setLoggingOut(false);
